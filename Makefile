@@ -77,6 +77,9 @@ test-devpod:
 test-jxui:
 	$(GO) test $(TESTFLAGS) ./test/suite/jxui
 
+test-uninstall:
+	$(GO) test $(TESTFLAGS) ./test/suite/uninstall
+
 test-lighthouse:
 	$(GO) test $(TESTFLAGS) ./test/suite/lighthouse
 
